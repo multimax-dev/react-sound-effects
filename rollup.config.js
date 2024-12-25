@@ -1,7 +1,7 @@
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
-import copy from "rollup-plugin-copy";
 import url from "@rollup/plugin-url";
+import external from "rollup-plugin-peer-deps-external";
 
 export default {
   input: "src/index.ts",
@@ -16,6 +16,7 @@ export default {
     },
   ],
   plugins: [
+    external(),
     url({
       include: ["**/*.mp3"],
       limit: 0
@@ -25,11 +26,6 @@ export default {
       tsconfig: "tsconfig.json",
       declaration: true,
     }),
-    copy({
-      targets: [
-        { src: "src/sounds/assets/*.mp3", dest: "dist/sounds/assets" }
-      ]
-    })
   ],
   external: ["react", "howler"],
 };

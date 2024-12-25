@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Howl } from 'howler';
 
 const usePlaySoundEffect = () => {
-    const [currentSound, setCurrentSound] = useState();
+    const [currentSound, setCurrentSound] = useState(null);
     const handlePlay = (soundEffect) => {
         if (currentSound) {
             currentSound.stop();

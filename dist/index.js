@@ -4,7 +4,7 @@ var react = require('react');
 var howler = require('howler');
 
 const usePlaySoundEffect = () => {
-    const [currentSound, setCurrentSound] = react.useState();
+    const [currentSound, setCurrentSound] = react.useState(null);
     const handlePlay = (soundEffect) => {
         if (currentSound) {
             currentSound.stop();
