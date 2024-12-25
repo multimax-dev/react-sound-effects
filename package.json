@@ -1,9 +1,16 @@
 {
   "name": "react-sound-effects",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Sound effects for developers",
   "main": "dist/index.js",
-  "types": "dist/src/types/index.d.ts",
+  "types": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/index.mjs", 
+      "require": "./dist/index.js"  
+    }
+  },
   "scripts": {
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
