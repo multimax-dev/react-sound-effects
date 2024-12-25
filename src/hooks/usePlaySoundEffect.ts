@@ -3,7 +3,7 @@ import { Howl } from "howler";
 import { SoundEffect } from "../types";
 
 export const usePlaySoundEffect = () => {
-  const [currentSound, setCurrentSound] = useState<Howl | null>();
+  const [currentSound, setCurrentSound] = useState<Howl | null>(null);
 
   const handlePlay = (soundEffect: SoundEffect) => {
     if (currentSound) {

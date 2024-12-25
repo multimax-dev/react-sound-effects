@@ -27,8 +27,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "howler": "^2.2.4",
-    "react": "^19.0.0"
+    "howler": "^2.2.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.3",
@@ -44,7 +46,7 @@
     "@types/howler": "^2.2.12",
     "@types/react": "^19.0.2",
     "rollup": "^4.29.1",
-    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.36.0",
     "storybook": "^8.4.7",
     "typescript": "^5.7.2"
