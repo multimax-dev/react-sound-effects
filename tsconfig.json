@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "bundler",
+      "jsx": "react",
+      "outDir": "dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "declaration": true,
+      "types": ["vite/client"]
+    },
+    "include": ["src", "stories/PlaySound.stories.tsx"]
+  }
+  
