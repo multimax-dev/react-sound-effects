@@ -4,9 +4,11 @@ import { Howl } from 'howler';
 const usePlaySoundEffect = () => {
     const [currentSound, setCurrentSound] = useState(null);
     const handlePlay = (soundEffect) => {
+        console.log("handlePlay triggered");
         if (currentSound) {
             currentSound.stop();
         }
+        console.log(soundEffect);
         const newSound = new Howl({
             src: [soundEffect.file],
             onend: () => {

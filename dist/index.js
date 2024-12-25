@@ -6,9 +6,11 @@ var howler = require('howler');
 const usePlaySoundEffect = () => {
     const [currentSound, setCurrentSound] = react.useState(null);
     const handlePlay = (soundEffect) => {
+        console.log("handlePlay triggered");
         if (currentSound) {
             currentSound.stop();
         }
+        console.log(soundEffect);
         const newSound = new howler.Howl({
             src: [soundEffect.file],
             onend: () => {
