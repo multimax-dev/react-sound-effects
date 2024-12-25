@@ -2,7 +2,7 @@
   "name": "react-sound-effects",
   "version": "1.0.0",
   "description": "Sound effects for developers",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
@@ -10,6 +10,13 @@
   },
   "keywords": [],
   "author": "soundeffects.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxcgong/react-sound-effects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxcgong/react-sound-effects/issues?q=is%3Aopen"
+  },
   "license": "MIT",
   "dependencies": {
     "howler": "^2.2.4",
