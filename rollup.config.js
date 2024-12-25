@@ -4,9 +4,16 @@ import typescript from "rollup-plugin-typescript2";
 export default {
   input: "src/index.ts",
   output: {
-    file: "dist/index.js",
+    dir: "dist",
     format: "cjs",
+    exports: "named",
   },
-  plugins: [resolve(), typescript()],
+  plugins: [
+    resolve(),
+    typescript({
+      tsconfig: "tsconfig.json",
+      declaration: true,
+    }),
+  ],
   external: ["react", "howler"],
 };
