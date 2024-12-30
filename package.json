@@ -1,6 +1,6 @@
 {
   "name": "react-sound-effects",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Sound effects for developers",
   "main": "src/index.js",
   "types": "src/index.d.ts",
