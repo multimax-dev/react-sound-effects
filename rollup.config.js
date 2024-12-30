@@ -7,17 +7,15 @@ export default {
   input: "src/index.ts",
   output: [
     {
-      file: "dist/index.js",
-      format: "cjs",
-    },
-    {
-      file: "dist/index.mjs",
+      dir: "dist",
       format: "es",
+      preserveModules: true, // Preserve module structure for code splitting
     },
   ],
   plugins: [
     external(),
     url({
+      fileName: `[name][extname]`,
       include: ["**/*.mp3"],
       limit: 0
     }),

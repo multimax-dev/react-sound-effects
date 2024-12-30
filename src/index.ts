@@ -1,3 +1,3 @@
 export { usePlaySoundEffect } from "./hooks/usePlaySoundEffect";
-export { soundEffects } from "./sounds/soundEffects";
+export { Bell } from "./sounds/Bell";
 export type { SoundEffect } from "./types";
