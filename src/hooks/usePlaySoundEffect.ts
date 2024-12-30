@@ -5,12 +5,10 @@ import { SoundEffect } from "../types";
 export const usePlaySoundEffect = () => {
   const [currentSound, setCurrentSound] = useState<Howl | null>(null);
 
-  const handlePlay = (soundEffect: SoundEffect) => {
-    console.log("handlePlay triggered")
+  const playSound = (soundEffect: SoundEffect) => {
     if (currentSound) {
       currentSound.stop();
     }
-    console.log(soundEffect);
     const newSound = new Howl({
       src: [soundEffect.file],
       onend: () => {
@@ -22,5 +20,5 @@ export const usePlaySoundEffect = () => {
     setCurrentSound(newSound);
   };
 
-  return { handlePlay };
+  return { playSound };
 };
