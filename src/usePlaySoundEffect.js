@@ -1,14 +1,19 @@
 import { useState } from "react";
 import { Howl } from "howler";
-import { SoundEffect } from "../types";
 
 export const usePlaySoundEffect = () => {
-  const [currentSound, setCurrentSound] = useState<Howl | null>(null);
+  // Keep track of current Howl object
+  const [currentSound, setCurrentSound] = useState(null);
 
-  const playSound = (soundEffect: SoundEffect) => {
+  // Play an aysnc loaded sound
+  const playSound = async (soundLoader) => {
     if (currentSound) {
       currentSound.stop();
     }
+
+    // Dynamically load the sound definition
+    const soundEffect = await soundLoader();
+
     const newSound = new Howl({
       src: [soundEffect.file],
       onend: () => {
