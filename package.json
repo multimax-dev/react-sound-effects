@@ -1,13 +1,13 @@
 {
   "name": "react-sound-effects",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Sound effects for developers",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "exports": {
     ".": {
       "types": "./src/index.d.ts",
-      "import": "./src/index.mjs",
+      "import": "./src/index.js",
       "require": "./src/index.js"
     }
   },
