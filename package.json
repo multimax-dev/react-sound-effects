@@ -2,19 +2,14 @@
   "name": "react-sound-effects",
   "version": "1.0.9",
   "description": "Sound effects for developers",
-  "main": "dist/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/src/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "require": "./src/index.js"
     }
-  },
-  "scripts": {
-    "build": "rollup -c",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "build-storybook -o storybook-static"
   },
   "keywords": [],
   "author": "soundeffects.dev",
@@ -33,22 +28,7 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.3",
-    "@rollup/plugin-node-resolve": "^16.0.0",
-    "@rollup/plugin-url": "^8.0.2",
-    "@storybook/addon-essentials": "^8.4.7",
-    "@storybook/addon-interactions": "^8.4.7",
-    "@storybook/addon-links": "^8.4.7",
-    "@storybook/blocks": "^8.4.7",
-    "@storybook/react": "^8.4.7",
-    "@storybook/react-vite": "^8.4.7",
-    "@storybook/test": "^8.4.7",
     "@types/howler": "^2.2.12",
-    "@types/react": "^19.0.2",
-    "rollup": "^4.29.1",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.36.0",
-    "storybook": "^8.4.7",
-    "typescript": "^5.7.2"
+    "@types/react": "^19.0.2"
   }
 }
