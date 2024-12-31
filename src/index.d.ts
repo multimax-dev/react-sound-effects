@@ -8,6 +8,8 @@ export declare const usePlaySoundEffect: () => {
     playSound: (soundLoader: () => Promise<SoundEffect>) => void;
 };
 
+export declare const soundEffectsDictionary: Record<string, SoundEffect>;
+
 export type SoundEffectFunction = () => Promise<SoundEffect>;
 
 export declare const Bell: SoundEffectFunction;

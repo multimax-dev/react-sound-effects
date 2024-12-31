@@ -1,409 +1,597 @@
+export const soundEffectsDictionary = {
+    Boom: {
+        name: "boom",
+        file: "./sounds/boom.mp3",
+        tags: ["celebration", "percussion", "drum", "instrument"],
+    },
+    Bell: {
+        name: "bell",
+        file: "./sounds/bell.mp3",
+        tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
+    },
+    Baddum: {
+        name: "baddum",
+        file: "./sounds/baddum.mp3",
+        tags: ["celebration", "percussion", "drum", "instrument"],
+    },
+    DrumRoll: {
+        name: "drum-roll",
+        file: "./sounds/drum-roll.mp3",
+        tags: ["celebration", "percussion", "drum", "instrument"],
+    },
+    MouseClick: {
+        name: "mouse-click",
+        file: "./sounds/mouse-click.mp3",
+        tags: ["thocky", "computer", "typing"],
+    },
+    MouseClickLight: {
+        name: "mouse-click-light",
+        file: "./sounds/mouse-click-light.mp3",
+        tags: ["thocky", "computer", "typing"],
+    },
+    Pop: {
+        name: "pop",
+        file: "./sounds/pop.mp3",
+    },
+    Ping: {
+        name: "ping",
+        file: "./sounds/ping.mp3",
+    },
+    Typing: {
+        name: "typing",
+        file: "./sounds/typing.mp3",
+        tags: ["thocky", "keyboard", "computer", "typing"],
+    },
+    MarimbaHit: {
+        name: "marimba-hit",
+        file: "./sounds/marimba-hit.mp3",
+        tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
+    },
+    BellOffTune: {
+        name: "bell-off-tune",
+        file: "./sounds/bell-off-tune.mp3",
+        tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
+    },
+    MarimbaBright: {
+        name: "marimba-bright",
+        file: "./sounds/marimba-bright.mp3",
+        tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
+    },
+    MarimbaBassLow: {
+        name: "marimba-bass-low",
+        file: "./sounds/marimba-bass-low.mp3",
+        tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
+    },
+    MetallicHitLow: {
+        name: "metallic-hit-low",
+        file: "./sounds/metallic-hit-low.mp3",
+        tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
+    },
+    MetallicHitHigh: {
+        name: "metallic-hit-high",
+        file: "./sounds/metallic-hit-high.mp3",
+        tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
+    },
+    BanjoStrum: {
+        name: "banjo-strum",
+        file: "./sounds/banjo-strum.mp3",
+        tags: ["guitar", "instrument", "banjo", "notification"],
+    },
+    GuitarEcho: {
+        name: "guitar-echo",
+        file: "./sounds/guitar-echo.mp3",
+        tags: ["guitar", "instrument", "notification"],
+    },
+    GuitarStrum: {
+        name: "guitar-strum",
+        file: "./sounds/guitar-strum.mp3",
+        tags: ["guitar", "instrument", "notification"],
+    },
+    HiHatMedium: {
+        name: "hi-hat-medium",
+        file: "./sounds/hi-hat-medium.mp3",
+        tags: ["percussion", "drum", "instrument"],
+    },
+    HiHatHigh: {
+        name: "hi-hat-high",
+        file: "./sounds/hi-hat-high.mp3",
+        tags: ["percussion", "drum", "instrument"],
+    },
+    Pluck: {
+        name: "pluck",
+        file: "./sounds/pluck.mp3",
+        tags: ["guitar", "instrument"],
+    },
+    PluckHigh: {
+        name: "pluck-high",
+        file: "./sounds/pluck-high.mp3",
+        tags: ["guitar", "instrument"],
+    },
+    KickBounce: {
+        name: "kick-bounce",
+        file: "./sounds/kick-bounce.mp3",
+        tags: ["percussion", "kick", "bass", "big"],
+    },
+    KickShort: {
+        name: "kick-short",
+        file: "./sounds/kick-short.mp3",
+        tags: ["percussion", "kick", "bass", "big"],
+    },
+    SnareDrum: {
+        name: "snare-drum",
+        file: "./sounds/snare-drum.mp3",
+        tags: ["percussion", "instrument", "drum"],
+    },
+    ShakerEcho: {
+        name: "shaker-echo",
+        file: "./sounds/shaker-echo.mp3",
+        tags: ["percussion", "instrument", "soft"],
+    },
+    Tambourine: {
+        name: "tambourine",
+        file: "./sounds/tambourine.mp3",
+        tags: ["percussion", "instrument", "soft"],
+    },
+    Bongo: {
+        name: "bongo",
+        file: "./sounds/bongo.mp3",
+        tags: ["percussion", "instrument", "soft"],
+    },
+    BongoHigh: {
+        name: "bongo-high",
+        file: "./sounds/bongo-high.mp3",
+        tags: ["percussion", "instrument", "soft"],
+    },
+    TypingSoft: {
+        name: "typing-soft",
+        file: "./sounds/typing-soft.mp3",
+        tags: ["thocky", "keyboard", "computer"],
+    },
+    TypingSoftLow: {
+        name: "typing-soft-low",
+        file: "./sounds/typing-soft-low.mp3",
+        tags: ["thocky", "keyboard", "computer"],
+    },
+    TypingSoftLowFast: {
+        name: "typing-soft-low-fast",
+        file: "./sounds/typing-soft-low-fast.mp3",
+        tags: ["thocky", "keyboard", "typing", "computer"],
+    },
+    TypingHigh: {
+        name: "typing-high",
+        file: "./sounds/typing-high.mp3",
+        tags: ["thocky", "keyboard", "typing", "computer"],
+    },
+    MouseClickLow: {
+        name: "mouse-click-low",
+        file: "./sounds/mouse-click-low.mp3",
+        tags: ["mouse", "click", "low"],
+    },
+    MouseDoubleClick: {
+        name: "mouse-double-click",
+        file: "./sounds/mouse-double-click.mp3",
+        tags: ["mouse", "click", "double-click"],
+    },
+    MouseClickCleanLight: {
+        name: "mouse-click-clean-light",
+        file: "./sounds/mouse-click-clean-light.mp3",
+        tags: ["mouse", "click", "clean"],
+    },
+    ClapsSolo: {
+        name: "claps-solo",
+        file: "./sounds/claps-solo.mp3",
+        tags: ["human", "clap", "celebration", "funny"],
+    },
+    ClapsQuiet: {
+        name: "claps-quiet",
+        file: "./sounds/claps-quiet.mp3",
+        tags: ["human", "clap", "celebration"],
+    },
+    ClapsWoo: {
+        name: "claps-woo",
+        file: "./sounds/claps-woo.mp3",
+        tags: ["human", "clap", "celebration"],
+    },
+    ClapsCheer: {
+        name: "claps-cheer",
+        file: "./sounds/claps-cheer.mp3",
+        tags: ["human", "clap", "cheer", "celebration"],
+    },
+    ChildrenYay: {
+        name: "children-yay",
+        file: "./sounds/children-yay.mp3",
+        tags: ["human", "cheer", "celebration"],
+    },
+    Squeak: {
+        name: "squeak",
+        file: "./sounds/squeak.mp3",
+    },
+    Wind: {
+        name: "wind",
+        file: "./sounds/wind.mp3",
+        tags: ["ambient"],
+    },
+    RecordScratch: {
+        name: "record-scratch",
+        file: "./sounds/record-scratch.mp3",
+    },
+    RecordScratchLow: {
+        name: "record-scratch-low",
+        file: "./sounds/record-scratch-low.mp3",
+    },
+    Cowbell: {
+        name: "cowbell",
+        file: "./sounds/cowbell.mp3",
+        tags: ["percussion", "instrument", "soft", "ping", "notification"],
+    },
+}
+
+
 export const Boom = async () => {
-  const module = await import("./sounds/boom.mp3");
+  const module = await import(soundEffects.Boom.file);
   return {
-    name: "boom",
+    ...soundEffects.Boom,
     file: module.default,
-    tags: ["celebration", "percussion", "drum", "instrument"],
   };
 };
 
 export const Bell = async () => {
-  const module = await import("./sounds/bell.mp3");
+  const module = await import(soundEffects.Bell.file);
   return {
-    name: "bell",
+    ...soundEffects.Bell,
     file: module.default,
-    tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
   };
 };
 
 export const Baddum = async () => {
-  const module = await import("./sounds/baddum.mp3");
+  const module = await import(soundEffects.Baddum.file);
   return {
-    name: "baddum",
+    ...soundEffects.Baddum,
     file: module.default,
-    tags: ["celebration", "percussion", "drum", "instrument"],
   };
 };
 
 export const DrumRoll = async () => {
-  const module = await import("./sounds/drum-roll.mp3");
+  const module = await import(soundEffects.DrumRoll.file);
   return {
-    name: "drum-roll",
+    ...soundEffects.DrumRoll,
     file: module.default,
-    tags: ["celebration", "percussion", "drum", "instrument"],
   };
 };
 
 export const MouseClick = async () => {
-  const module = await import("./sounds/mouse-click.mp3");
+  const module = await import(soundEffects.MouseClick.file);
   return {
-    name: "mouse-click",
+    ...soundEffects.MouseClick,
     file: module.default,
-    tags: ["thocky", "computer", "typing"],
   };
 };
 
 export const MouseClickLight = async () => {
-  const module = await import("./sounds/mouse-click-light.mp3");
+  const module = await import(soundEffects.MouseClickLight.file);
   return {
-    name: "mouse-click-light",
+    ...soundEffects.MouseClickLight,
     file: module.default,
-    tags: ["thocky", "computer", "typing"],
   };
 };
 
 export const Pop = async () => {
-  const module = await import("./sounds/pop.mp3");
+  const module = await import(soundEffects.Pop.file);
   return {
-    name: "pop",
+    ...soundEffects.Pop,
     file: module.default,
   };
 };
 
 export const Ping = async () => {
-  const module = await import("./sounds/ping.mp3");
+  const module = await import(soundEffects.Ping.file);
   return {
-    name: "ping",
+    ...soundEffects.Ping,
     file: module.default,
   };
 };
 
 export const Typing = async () => {
-  const module = await import("./sounds/typing.mp3");
+  const module = await import(soundEffects.Typing.file);
   return {
-    name: "typing",
+    ...soundEffects.Typing,
     file: module.default,
-    tags: ["thocky", "keyboard", "computer", "typing"],
   };
 };
 
 export const MarimbaHit = async () => {
-  const module = await import("./sounds/marimba-hit.mp3");
+  const module = await import(soundEffects.MarimbaHit.file);
   return {
-    name: "marimba-hit",
+    ...soundEffects.MarimbaHit,
     file: module.default,
-    tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
   };
 };
 
 export const BellOffTune = async () => {
-  const module = await import("./sounds/bell-off-tune.mp3");
+  const module = await import(soundEffects.BellOffTune.file);
   return {
-    name: "bell-off-tune",
+    ...soundEffects.BellOffTune,
     file: module.default,
-    tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
   };
 };
 
 export const MarimbaBright = async () => {
-  const module = await import("./sounds/marimba-bright.mp3");
+  const module = await import(soundEffects.MarimbaBright.file);
   return {
-    name: "marimba-bright",
+    ...soundEffects.MarimbaBright,
     file: module.default,
-    tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
   };
 };
 
 export const MarimbaBassLow = async () => {
-  const module = await import("./sounds/marimba-bass-low.mp3");
+  const module = await import(soundEffects.MarimbaBassLow.file);
   return {
-    name: "marimba-bass-low",
+    ...soundEffects.MarimbaBassLow,
     file: module.default,
-    tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
   };
 };
 
 export const MetallicHitLow = async () => {
-  const module = await import("./sounds/metallic-hit-low.mp3");
+  const module = await import(soundEffects.MetallicHitLow.file);
   return {
-    name: "metallic-hit-low",
+    ...soundEffects.MetallicHitLow,
     file: module.default,
-    tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
   };
 };
 
 export const MetallicHitHigh = async () => {
-  const module = await import("./sounds/metallic-hit-high.mp3");
+  const module = await import(soundEffects.MetallicHitHigh.file);
   return {
-    name: "metallic-hit-high",
+    ...soundEffects.MetallicHitHigh,
     file: module.default,
-    tags: ["soft", "percussion", "tone", "instrument", "bell", "notification"],
   };
 };
 
 export const BanjoStrum = async () => {
-  const module = await import("./sounds/banjo-strum.mp3");
+  const module = await import(soundEffects.BanjoStrum.file);
   return {
-    name: "banjo-strum",
+    ...soundEffects.BanjoStrum,
     file: module.default,
-    tags: ["guitar", "instrument", "banjo", "notification"],
   };
 };
 
 export const GuitarEcho = async () => {
-  const module = await import("./sounds/guitar-echo.mp3");
+  const module = await import(soundEffects.GuitarEcho.file);
   return {
-    name: "guitar-echo",
+    ...soundEffects.GuitarEcho,
     file: module.default,
-    tags: ["guitar", "instrument", "notification"],
   };
 };
 
 export const GuitarStrum = async () => {
-  const module = await import("./sounds/guitar-strum.mp3");
+  const module = await import(soundEffects.GuitarStrum.file);
   return {
-    name: "guitar-strum",
+    ...soundEffects.GuitarStrum,
     file: module.default,
-    tags: ["guitar", "instrument", "notification"],
   };
 };
 
 export const HiHatMedium = async () => {
-  const module = await import("./sounds/hi-hat-medium.mp3");
+  const module = await import(soundEffects.HiHatMedium.file);
   return {
-    name: "hi-hat-medium",
+    ...soundEffects.HiHatMedium,
     file: module.default,
-    tags: ["percussion", "drum", "instrument"],
   };
 };
 
 export const HiHatHigh = async () => {
-  const module = await import("./sounds/hi-hat-high.mp3");
+  const module = await import(soundEffects.HiHatHigh.file);
   return {
-    name: "hi-hat-high",
+    ...soundEffects.HiHatHigh,
     file: module.default,
-    tags: ["percussion", "drum", "instrument"],
   };
 };
 
 export const Pluck = async () => {
-  const module = await import("./sounds/pluck.mp3");
+  const module = await import(soundEffects.Pluck.file);
   return {
-    name: "pluck",
+    ...soundEffects.Pluck,
     file: module.default,
-    tags: ["guitar", "instrument"],
   };
 };
 
 export const PluckHigh = async () => {
-  const module = await import("./sounds/pluck-high.mp3");
+  const module = await import(soundEffects.PluckHigh.file);
   return {
-    name: "pluck-high",
+    ...soundEffects.PluckHigh,
     file: module.default,
-    tags: ["guitar", "instrument"],
   };
 };
 
 export const KickBounce = async () => {
-  const module = await import("./sounds/kick-bounce.mp3");
+  const module = await import(soundEffects.KickBounce.file);
   return {
-    name: "kick-bounce",
+    ...soundEffects.KickBounce,
     file: module.default,
-    tags: ["percussion", "kick", "bass", "big"],
   };
 };
 
 export const KickShort = async () => {
-  const module = await import("./sounds/kick-short.mp3");
+  const module = await import(soundEffects.KickShort.file);
   return {
-    name: "kick-short",
+    ...soundEffects.KickShort,
     file: module.default,
-    tags: ["percussion", "kick", "bass", "big"],
   };
 };
 
 export const SnareDrum = async () => {
-  const module = await import("./sounds/snare-drum.mp3");
+  const module = await import(soundEffects.SnareDrum.file);
   return {
-    name: "snare-drum",
+    ...soundEffects.SnareDrum,
     file: module.default,
-    tags: ["percussion", "instrument", "drum"],
   };
 };
 
 export const ShakerEcho = async () => {
-  const module = await import("./sounds/shaker-echo.mp3");
+  const module = await import(soundEffects.ShakerEcho.file);
   return {
-    name: "shaker-echo",
+    ...soundEffects.ShakerEcho,
     file: module.default,
-    tags: ["percussion", "instrument", "soft"],
   };
 };
 
 export const Tambourine = async () => {
-  const module = await import("./sounds/tambourine.mp3");
+  const module = await import(soundEffects.Tambourine.file);
   return {
-    name: "tambourine",
+    ...soundEffects.Tambourine,
     file: module.default,
-    tags: ["percussion", "instrument", "soft"],
   };
 };
 
 export const Bongo = async () => {
-  const module = await import("./sounds/bongo.mp3");
+  const module = await import(soundEffects.Bongo.file);
   return {
-    name: "bongo",
+    ...soundEffects.Bongo,
     file: module.default,
-    tags: ["percussion", "instrument", "soft"],
   };
 };
 
 export const BongoHigh = async () => {
-  const module = await import("./sounds/bongo-high.mp3");
+  const module = await import(soundEffects.BongoHigh.file);
   return {
-    name: "bongo-high",
+    ...soundEffects.BongoHigh,
     file: module.default,
-    tags: ["percussion", "instrument", "soft"],
   };
 };
 
 export const TypingSoft = async () => {
-  const module = await import("./sounds/typing-soft.mp3");
+  const module = await import(soundEffects.TypingSoft.file);
   return {
-    name: "typing-soft",
+    ...soundEffects.TypingSoft,
     file: module.default,
-    tags: ["thocky", "keyboard", "computer"],
   };
 };
 
 export const TypingSoftLow = async () => {
-  const module = await import("./sounds/typing-soft-low.mp3");
+  const module = await import(soundEffects.TypingSoftLow.file);
   return {
-    name: "typing-soft-low",
+    ...soundEffects.TypingSoftLow,
     file: module.default,
-    tags: ["thocky", "keyboard", "computer"],
   };
 };
 
 export const TypingSoftLowFast = async () => {
-  const module = await import("./sounds/typing-soft-low-fast.mp3");
+  const module = await import(soundEffects.TypingSoftLowFast.file);
   return {
-    name: "typing-soft-low-fast",
+    ...soundEffects.TypingSoftLowFast,
     file: module.default,
-    tags: ["thocky", "keyboard", "typing", "computer"],
   };
 };
 
 export const TypingHigh = async () => {
-  const module = await import("./sounds/typing-high.mp3");
+  const module = await import(soundEffects.TypingHigh.file);
   return {
-    name: "typing-high",
+    ...soundEffects.TypingHigh,
     file: module.default,
-    tags: ["thocky", "keyboard", "typing", "computer"],
   };
 };
 
 export const MouseClickLow = async () => {
-  const module = await import("./sounds/mouse-click-low.mp3");
+  const module = await import(soundEffects.MouseClickLow.file);
   return {
-    name: "mouse-click-low",
+    ...soundEffects.MouseClickLow,
     file: module.default,
-    tags: ["mouse", "click", "low"],
   };
 };
 
 export const MouseDoubleClick = async () => {
-  const module = await import("./sounds/mouse-double-click.mp3");
+  const module = await import(soundEffects.MouseDoubleClick.file);
   return {
-    name: "mouse-double-click",
+    ...soundEffects.MouseDoubleClick,
     file: module.default,
-    tags: ["mouse", "click", "double-click"],
   };
 };
 
 export const MouseClickCleanLight = async () => {
-  const module = await import("./sounds/mouse-click-clean-light.mp3");
+  const module = await import(soundEffects.MouseClickCleanLight.file);
   return {
-    name: "mouse-click-clean-light",
+    ...soundEffects.MouseClickCleanLight,
     file: module.default,
-    tags: ["mouse", "click", "clean"],
   };
 };
 
 export const ClapsSolo = async () => {
-  const module = await import("./sounds/claps-solo.mp3");
+  const module = await import(soundEffects.ClapsSolo.file);
   return {
-    name: "claps-solo",
+    ...soundEffects.ClapsSolo,
     file: module.default,
-    tags: ["human", "clap", "celebration", "funny"],
   };
 };
 
 export const ClapsQuiet = async () => {
-  const module = await import("./sounds/claps-quiet.mp3");
+  const module = await import(soundEffects.ClapsQuiet.file);
   return {
-    name: "claps-quiet",
+    ...soundEffects.ClapsQuiet,
     file: module.default,
-    tags: ["human", "clap", "celebration"],
   };
 };
 
 export const ClapsWoo = async () => {
-  const module = await import("./sounds/claps-woo.mp3");
+  const module = await import(soundEffects.ClapsWoo.file);
   return {
-    name: "claps-woo",
+    ...soundEffects.ClapsWoo,
     file: module.default,
-    tags: ["human", "clap", "celebration"],
   };
 };
 
 export const ClapsCheer = async () => {
-  const module = await import("./sounds/claps-cheer.mp3");
+  const module = await import(soundEffects.ClapsCheer.file);
   return {
-    name: "claps-cheer",
+    ...soundEffects.ClapsCheer,
     file: module.default,
-    tags: ["human", "clap", "cheer", "celebration"],
   };
 };
 
 export const ChildrenYay = async () => {
-  const module = await import("./sounds/children-yay.mp3");
+  const module = await import(soundEffects.ChildrenYay.file);
   return {
-    name: "children-yay",
+    ...soundEffects.ChildrenYay,
     file: module.default,
-    tags: ["human", "cheer", "celebration"],
   };
 };
 
 export const Squeak = async () => {
-  const module = await import("./sounds/squeak.mp3");
+  const module = await import(soundEffects.Squeak.file);
   return {
-    name: "squeak",
+    ...soundEffects.Squeak,
     file: module.default,
   };
 };
 
 export const Wind = async () => {
-  const module = await import("./sounds/wind.mp3");
+  const module = await import(soundEffects.Wind.file);
   return {
-    name: "wind",
+    ...soundEffects.Wind,
     file: module.default,
-    tags: ["ambient"],
   };
 };
 
 export const RecordScratch = async () => {
-  const module = await import("./sounds/record-scratch.mp3");
+  const module = await import(soundEffects.RecordScratch.file);
   return {
-    name: "record-scratch",
+    ...soundEffects.RecordScratch,
     file: module.default,
   };
 };
 
 export const RecordScratchLow = async () => {
-  const module = await import("./sounds/record-scratch-low.mp3");
+  const module = await import(soundEffects.RecordScratchLow.file);
   return {
-    name: "record-scratch-low",
+    ...soundEffects.RecordScratchLow,
     file: module.default,
   };
 };
 
 export const Cowbell = async () => {
-  const module = await import("./sounds/cowbell.mp3");
+  const module = await import(soundEffects.Cowbell.file);
   return {
-    name: "cowbell",
+    ...soundEffects.Cowbell,
     file: module.default,
-    tags: ["percussion", "instrument", "soft", "ping", "notification"],
   };
 };
 
