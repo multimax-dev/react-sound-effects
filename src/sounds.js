@@ -228,369 +228,369 @@ export const soundEffectsDictionary = {
 
 
 export const Boom = async () => {
-  const module = await import(soundEffects.Boom.file);
+  const module = await import(soundEffectsDictionary.Boom.file);
   return {
-    ...soundEffects.Boom,
+    ...soundEffectsDictionary.Boom,
     file: module.default,
   };
 };
 
 export const Bell = async () => {
-  const module = await import(soundEffects.Bell.file);
+  const module = await import(soundEffectsDictionary.Bell.file);
   return {
-    ...soundEffects.Bell,
+    ...soundEffectsDictionary.Bell,
     file: module.default,
   };
 };
 
 export const Baddum = async () => {
-  const module = await import(soundEffects.Baddum.file);
+  const module = await import(soundEffectsDictionary.Baddum.file);
   return {
-    ...soundEffects.Baddum,
+    ...soundEffectsDictionary.Baddum,
     file: module.default,
   };
 };
 
 export const DrumRoll = async () => {
-  const module = await import(soundEffects.DrumRoll.file);
+  const module = await import(soundEffectsDictionary.DrumRoll.file);
   return {
-    ...soundEffects.DrumRoll,
+    ...soundEffectsDictionary.DrumRoll,
     file: module.default,
   };
 };
 
 export const MouseClick = async () => {
-  const module = await import(soundEffects.MouseClick.file);
+  const module = await import(soundEffectsDictionary.MouseClick.file);
   return {
-    ...soundEffects.MouseClick,
+    ...soundEffectsDictionary.MouseClick,
     file: module.default,
   };
 };
 
 export const MouseClickLight = async () => {
-  const module = await import(soundEffects.MouseClickLight.file);
+  const module = await import(soundEffectsDictionary.MouseClickLight.file);
   return {
-    ...soundEffects.MouseClickLight,
+    ...soundEffectsDictionary.MouseClickLight,
     file: module.default,
   };
 };
 
 export const Pop = async () => {
-  const module = await import(soundEffects.Pop.file);
+  const module = await import(soundEffectsDictionary.Pop.file);
   return {
-    ...soundEffects.Pop,
+    ...soundEffectsDictionary.Pop,
     file: module.default,
   };
 };
 
 export const Ping = async () => {
-  const module = await import(soundEffects.Ping.file);
+  const module = await import(soundEffectsDictionary.Ping.file);
   return {
-    ...soundEffects.Ping,
+    ...soundEffectsDictionary.Ping,
     file: module.default,
   };
 };
 
 export const Typing = async () => {
-  const module = await import(soundEffects.Typing.file);
+  const module = await import(soundEffectsDictionary.Typing.file);
   return {
-    ...soundEffects.Typing,
+    ...soundEffectsDictionary.Typing,
     file: module.default,
   };
 };
 
 export const MarimbaHit = async () => {
-  const module = await import(soundEffects.MarimbaHit.file);
+  const module = await import(soundEffectsDictionary.MarimbaHit.file);
   return {
-    ...soundEffects.MarimbaHit,
+    ...soundEffectsDictionary.MarimbaHit,
     file: module.default,
   };
 };
 
 export const BellOffTune = async () => {
-  const module = await import(soundEffects.BellOffTune.file);
+  const module = await import(soundEffectsDictionary.BellOffTune.file);
   return {
-    ...soundEffects.BellOffTune,
+    ...soundEffectsDictionary.BellOffTune,
     file: module.default,
   };
 };
 
 export const MarimbaBright = async () => {
-  const module = await import(soundEffects.MarimbaBright.file);
+  const module = await import(soundEffectsDictionary.MarimbaBright.file);
   return {
-    ...soundEffects.MarimbaBright,
+    ...soundEffectsDictionary.MarimbaBright,
     file: module.default,
   };
 };
 
 export const MarimbaBassLow = async () => {
-  const module = await import(soundEffects.MarimbaBassLow.file);
+  const module = await import(soundEffectsDictionary.MarimbaBassLow.file);
   return {
-    ...soundEffects.MarimbaBassLow,
+    ...soundEffectsDictionary.MarimbaBassLow,
     file: module.default,
   };
 };
 
 export const MetallicHitLow = async () => {
-  const module = await import(soundEffects.MetallicHitLow.file);
+  const module = await import(soundEffectsDictionary.MetallicHitLow.file);
   return {
-    ...soundEffects.MetallicHitLow,
+    ...soundEffectsDictionary.MetallicHitLow,
     file: module.default,
   };
 };
 
 export const MetallicHitHigh = async () => {
-  const module = await import(soundEffects.MetallicHitHigh.file);
+  const module = await import(soundEffectsDictionary.MetallicHitHigh.file);
   return {
-    ...soundEffects.MetallicHitHigh,
+    ...soundEffectsDictionary.MetallicHitHigh,
     file: module.default,
   };
 };
 
 export const BanjoStrum = async () => {
-  const module = await import(soundEffects.BanjoStrum.file);
+  const module = await import(soundEffectsDictionary.BanjoStrum.file);
   return {
-    ...soundEffects.BanjoStrum,
+    ...soundEffectsDictionary.BanjoStrum,
     file: module.default,
   };
 };
 
 export const GuitarEcho = async () => {
-  const module = await import(soundEffects.GuitarEcho.file);
+  const module = await import(soundEffectsDictionary.GuitarEcho.file);
   return {
-    ...soundEffects.GuitarEcho,
+    ...soundEffectsDictionary.GuitarEcho,
     file: module.default,
   };
 };
 
 export const GuitarStrum = async () => {
-  const module = await import(soundEffects.GuitarStrum.file);
+  const module = await import(soundEffectsDictionary.GuitarStrum.file);
   return {
-    ...soundEffects.GuitarStrum,
+    ...soundEffectsDictionary.GuitarStrum,
     file: module.default,
   };
 };
 
 export const HiHatMedium = async () => {
-  const module = await import(soundEffects.HiHatMedium.file);
+  const module = await import(soundEffectsDictionary.HiHatMedium.file);
   return {
-    ...soundEffects.HiHatMedium,
+    ...soundEffectsDictionary.HiHatMedium,
     file: module.default,
   };
 };
 
 export const HiHatHigh = async () => {
-  const module = await import(soundEffects.HiHatHigh.file);
+  const module = await import(soundEffectsDictionary.HiHatHigh.file);
   return {
-    ...soundEffects.HiHatHigh,
+    ...soundEffectsDictionary.HiHatHigh,
     file: module.default,
   };
 };
 
 export const Pluck = async () => {
-  const module = await import(soundEffects.Pluck.file);
+  const module = await import(soundEffectsDictionary.Pluck.file);
   return {
-    ...soundEffects.Pluck,
+    ...soundEffectsDictionary.Pluck,
     file: module.default,
   };
 };
 
 export const PluckHigh = async () => {
-  const module = await import(soundEffects.PluckHigh.file);
+  const module = await import(soundEffectsDictionary.PluckHigh.file);
   return {
-    ...soundEffects.PluckHigh,
+    ...soundEffectsDictionary.PluckHigh,
     file: module.default,
   };
 };
 
 export const KickBounce = async () => {
-  const module = await import(soundEffects.KickBounce.file);
+  const module = await import(soundEffectsDictionary.KickBounce.file);
   return {
-    ...soundEffects.KickBounce,
+    ...soundEffectsDictionary.KickBounce,
     file: module.default,
   };
 };
 
 export const KickShort = async () => {
-  const module = await import(soundEffects.KickShort.file);
+  const module = await import(soundEffectsDictionary.KickShort.file);
   return {
-    ...soundEffects.KickShort,
+    ...soundEffectsDictionary.KickShort,
     file: module.default,
   };
 };
 
 export const SnareDrum = async () => {
-  const module = await import(soundEffects.SnareDrum.file);
+  const module = await import(soundEffectsDictionary.SnareDrum.file);
   return {
-    ...soundEffects.SnareDrum,
+    ...soundEffectsDictionary.SnareDrum,
     file: module.default,
   };
 };
 
 export const ShakerEcho = async () => {
-  const module = await import(soundEffects.ShakerEcho.file);
+  const module = await import(soundEffectsDictionary.ShakerEcho.file);
   return {
-    ...soundEffects.ShakerEcho,
+    ...soundEffectsDictionary.ShakerEcho,
     file: module.default,
   };
 };
 
 export const Tambourine = async () => {
-  const module = await import(soundEffects.Tambourine.file);
+  const module = await import(soundEffectsDictionary.Tambourine.file);
   return {
-    ...soundEffects.Tambourine,
+    ...soundEffectsDictionary.Tambourine,
     file: module.default,
   };
 };
 
 export const Bongo = async () => {
-  const module = await import(soundEffects.Bongo.file);
+  const module = await import(soundEffectsDictionary.Bongo.file);
   return {
-    ...soundEffects.Bongo,
+    ...soundEffectsDictionary.Bongo,
     file: module.default,
   };
 };
 
 export const BongoHigh = async () => {
-  const module = await import(soundEffects.BongoHigh.file);
+  const module = await import(soundEffectsDictionary.BongoHigh.file);
   return {
-    ...soundEffects.BongoHigh,
+    ...soundEffectsDictionary.BongoHigh,
     file: module.default,
   };
 };
 
 export const TypingSoft = async () => {
-  const module = await import(soundEffects.TypingSoft.file);
+  const module = await import(soundEffectsDictionary.TypingSoft.file);
   return {
-    ...soundEffects.TypingSoft,
+    ...soundEffectsDictionary.TypingSoft,
     file: module.default,
   };
 };
 
 export const TypingSoftLow = async () => {
-  const module = await import(soundEffects.TypingSoftLow.file);
+  const module = await import(soundEffectsDictionary.TypingSoftLow.file);
   return {
-    ...soundEffects.TypingSoftLow,
+    ...soundEffectsDictionary.TypingSoftLow,
     file: module.default,
   };
 };
 
 export const TypingSoftLowFast = async () => {
-  const module = await import(soundEffects.TypingSoftLowFast.file);
+  const module = await import(soundEffectsDictionary.TypingSoftLowFast.file);
   return {
-    ...soundEffects.TypingSoftLowFast,
+    ...soundEffectsDictionary.TypingSoftLowFast,
     file: module.default,
   };
 };
 
 export const TypingHigh = async () => {
-  const module = await import(soundEffects.TypingHigh.file);
+  const module = await import(soundEffectsDictionary.TypingHigh.file);
   return {
-    ...soundEffects.TypingHigh,
+    ...soundEffectsDictionary.TypingHigh,
     file: module.default,
   };
 };
 
 export const MouseClickLow = async () => {
-  const module = await import(soundEffects.MouseClickLow.file);
+  const module = await import(soundEffectsDictionary.MouseClickLow.file);
   return {
-    ...soundEffects.MouseClickLow,
+    ...soundEffectsDictionary.MouseClickLow,
     file: module.default,
   };
 };
 
 export const MouseDoubleClick = async () => {
-  const module = await import(soundEffects.MouseDoubleClick.file);
+  const module = await import(soundEffectsDictionary.MouseDoubleClick.file);
   return {
-    ...soundEffects.MouseDoubleClick,
+    ...soundEffectsDictionary.MouseDoubleClick,
     file: module.default,
   };
 };
 
 export const MouseClickCleanLight = async () => {
-  const module = await import(soundEffects.MouseClickCleanLight.file);
+  const module = await import(soundEffectsDictionary.MouseClickCleanLight.file);
   return {
-    ...soundEffects.MouseClickCleanLight,
+    ...soundEffectsDictionary.MouseClickCleanLight,
     file: module.default,
   };
 };
 
 export const ClapsSolo = async () => {
-  const module = await import(soundEffects.ClapsSolo.file);
+  const module = await import(soundEffectsDictionary.ClapsSolo.file);
   return {
-    ...soundEffects.ClapsSolo,
+    ...soundEffectsDictionary.ClapsSolo,
     file: module.default,
   };
 };
 
 export const ClapsQuiet = async () => {
-  const module = await import(soundEffects.ClapsQuiet.file);
+  const module = await import(soundEffectsDictionary.ClapsQuiet.file);
   return {
-    ...soundEffects.ClapsQuiet,
+    ...soundEffectsDictionary.ClapsQuiet,
     file: module.default,
   };
 };
 
 export const ClapsWoo = async () => {
-  const module = await import(soundEffects.ClapsWoo.file);
+  const module = await import(soundEffectsDictionary.ClapsWoo.file);
   return {
-    ...soundEffects.ClapsWoo,
+    ...soundEffectsDictionary.ClapsWoo,
     file: module.default,
   };
 };
 
 export const ClapsCheer = async () => {
-  const module = await import(soundEffects.ClapsCheer.file);
+  const module = await import(soundEffectsDictionary.ClapsCheer.file);
   return {
-    ...soundEffects.ClapsCheer,
+    ...soundEffectsDictionary.ClapsCheer,
     file: module.default,
   };
 };
 
 export const ChildrenYay = async () => {
-  const module = await import(soundEffects.ChildrenYay.file);
+  const module = await import(soundEffectsDictionary.ChildrenYay.file);
   return {
-    ...soundEffects.ChildrenYay,
+    ...soundEffectsDictionary.ChildrenYay,
     file: module.default,
   };
 };
 
 export const Squeak = async () => {
-  const module = await import(soundEffects.Squeak.file);
+  const module = await import(soundEffectsDictionary.Squeak.file);
   return {
-    ...soundEffects.Squeak,
+    ...soundEffectsDictionary.Squeak,
     file: module.default,
   };
 };
 
 export const Wind = async () => {
-  const module = await import(soundEffects.Wind.file);
+  const module = await import(soundEffectsDictionary.Wind.file);
   return {
-    ...soundEffects.Wind,
+    ...soundEffectsDictionary.Wind,
     file: module.default,
   };
 };
 
 export const RecordScratch = async () => {
-  const module = await import(soundEffects.RecordScratch.file);
+  const module = await import(soundEffectsDictionary.RecordScratch.file);
   return {
-    ...soundEffects.RecordScratch,
+    ...soundEffectsDictionary.RecordScratch,
     file: module.default,
   };
 };
 
 export const RecordScratchLow = async () => {
-  const module = await import(soundEffects.RecordScratchLow.file);
+  const module = await import(soundEffectsDictionary.RecordScratchLow.file);
   return {
-    ...soundEffects.RecordScratchLow,
+    ...soundEffectsDictionary.RecordScratchLow,
     file: module.default,
   };
 };
 
 export const Cowbell = async () => {
-  const module = await import(soundEffects.Cowbell.file);
+  const module = await import(soundEffectsDictionary.Cowbell.file);
   return {
-    ...soundEffects.Cowbell,
+    ...soundEffectsDictionary.Cowbell,
     file: module.default,
   };
 };
