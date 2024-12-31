@@ -13,7 +13,7 @@ export declare const soundEffectsDictionary: Record<string, SoundEffect>;
 export type SoundEffectFunction = () => Promise<SoundEffect>;
 
 export declare const Bell: SoundEffectFunction;
-export declare const Boom: Promise<SoundEffect>;
+export declare const Boom: SoundEffectFunction;
 export declare const Baddum: SoundEffectFunction;
 export declare const DrumRoll: SoundEffectFunction;
 export declare const MouseClick: SoundEffectFunction;
