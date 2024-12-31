@@ -226,19 +226,23 @@ export const soundEffectsDictionary = {
     },
 }
 
+const loadSoundEffect = async (soundEffect) => {
+    const module = await import(soundEffect.file);
+    return {
+        name: soundEffect.name,
+        tags: soundEffect.tags,
+        file: module.default
+    }
+}
 
-export const Boom = async () => {
-  const module = await import(soundEffectsDictionary.Boom.file);
-  return {
-    ...soundEffectsDictionary.Boom,
-    file: module.default,
-  };
-};
+
+export const Boom = loadSoundEffect(soundEffectsDictionary.Boom);
 
 export const Bell = async () => {
   const module = await import(soundEffectsDictionary.Bell.file);
   return {
-    ...soundEffectsDictionary.Bell,
+    name: soundEffectsDictionary.Bell.name,
+    tags: soundEffectsDictionary.Bell.tags,
     file: module.default,
   };
 };
