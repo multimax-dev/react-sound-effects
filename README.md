@@ -1,11 +1,8 @@
 # react-sound-effects
 
-## WORK IN PROGRESS
+**Add 50+ sound effects to your React app**
 
-
-**Play over 50 sound effects in your React app**
-
-Make your websites more interactive!
+This is a library of sound effects that you can easily implement in your React app. Make your websites interactive and engaging!
 
 ✅ 100% free
 
@@ -42,14 +39,14 @@ yarn add react-sound-effects
 ### 2) Use
 Below is an example
 ```javascript
-import { usePlaySoundEffect, soundEffects } from 'react-sound-effects';
+import { usePlaySoundEffect, Bell } from 'react-sound-effects';
 
 const ButtonThatPlaysBellSound = () => {
-  const { handlePlay } = usePlaySoundEffect();
+  const { playSound } = usePlaySoundEffect();
 
   return (
-      <button key={'Bell'} onClick={() => handlePlay(soundEffects.Bell)}>
-        'Bell'
+      <button key="Bell" onClick={() => playSound(Bell)}>
+        Bell
       </button>
   );
 }
