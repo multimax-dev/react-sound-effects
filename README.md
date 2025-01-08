@@ -1,18 +1,16 @@
 # react-sound-effects
 
-**Add 50+ sound effects to your React app**
+**Add sound effects to your React app**
 
-This is a library of sound effects that you can easily implement in your React app. Make your websites interactive and engaging!
+A library of sound effects that you can easily implement in your React app. Make your websites interactive and engaging!
 
-✅ 100% free
+✅ 10+ free curated sound effects
 
-✅ 50+ curated sound effects
-
-✅ Implement within 1 minute
+✅ Implement in less than 1 minute
 
 ✅ Built for React
 
-Visit [soundeffects.dev](https://soundeffects.dev) to play around with all sounds and read full details.
+Visit [soundeffects.dev](https://soundeffects.dev) to explore 40+ more sounds.
 
 ## Motivation
 While there are many libraries for icons (ie.: Lucide), there's no easy-to-use libraries for sound effects. 
@@ -20,7 +18,7 @@ While there are many libraries for icons (ie.: Lucide), there's no easy-to-use l
 ## When to use this package
 Use this package to ...
 
-1. Get direct access to 50+ curated free sound effects.
+1. Get direct access to free sound effects.
 2. Use a hook to easily play sound effects.
 
 ## How to use
