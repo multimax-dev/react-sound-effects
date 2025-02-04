@@ -8,12 +8,14 @@ A library of sound effects that you can easily implement in your React app. Make
 
 ✅ Implement in less than 1 minute
 
+✅ Lazy-loaded for fast runtime
+
 ✅ Built for React
 
-Visit [soundeffects.dev](https://soundeffects.dev) to explore 40+ more sounds.
+Visit [soundeffects.dev](https://soundeffects.dev) to play around with all, and visit the [react-sound-effects-premium](https://www.privjs.com/packages/react-sound-effects-premium) npm package for the premium version.
 
 ## Motivation
-While there are many libraries for icons (ie.: Lucide), there's no easy-to-use libraries for sound effects. 
+While there are many libraries for icons (ie.: Lucide), there's no easy-to-use libraries for sound effects. I wanted to create a library of awesome sound effects that developers can easily implement, just like the icons today.
 
 ## When to use this package
 Use this package to ...

@@ -1,6 +1,6 @@
 {
   "name": "react-sound-effects",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Sound effects for developers",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -15,10 +15,10 @@
   "author": "soundeffects.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxcgong/react-sound-effects.git"
+    "url": "git+https://github.com/multimax-dev/react-sound-effects.git"
   },
   "bugs": {
-    "url": "https://github.com/maxcgong/react-sound-effects/issues?q=is%3Aopen"
+    "url": "https://github.com/multimax-dev/react-sound-effects/issues?q=is%3Aopen"
   },
   "license": "MIT",
   "dependencies": {
